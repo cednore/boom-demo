@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dda2998913b58bb98a1dea1f035ad57c",
+    "content-hash": "bbf33e147e80b7ce31726652a2727368",
     "packages": [
         {
             "name": "cednore/boom-controller",
-            "version": "0.1.7",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cednore/boom-controller.git",
-                "reference": "4f8a9f18176e290f1e1ee259894998dc5e2f74bc"
+                "reference": "420799a44ef1abb99a2ec9f8e1d88d4ab84b37f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cednore/boom-controller/zipball/420799a44ef1abb99a2ec9f8e1d88d4ab84b37f3",
+                "reference": "420799a44ef1abb99a2ec9f8e1d88d4ab84b37f3",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -34,17 +40,14 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Boom\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Boom\\": "src/"
+                }
             },
-            "autoload-dev": {
-                "psr-4": [],
-                "classmap": []
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -57,14 +60,18 @@
             "description": "Booming server control interface for Laravel",
             "homepage": "http://github.com/cednore/boom-controller.git",
             "keywords": [
+                "Socket.io",
                 "boom",
                 "boom-controller",
                 "boom-server",
                 "laravel",
-                "php",
-                "socket.io"
+                "php"
             ],
-            "time": "2022-04-11T13:12:31+00:00"
+            "support": {
+                "issues": "https://github.com/cednore/boom-controller/issues",
+                "source": "https://github.com/cednore/boom-controller/tree/v1.0.0"
+            },
+            "time": "2022-04-11T19:11:37+00:00"
         },
         {
             "name": "doctrine/inflector",
