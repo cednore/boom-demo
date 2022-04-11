@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "cednore/boom-controller",
-            "version": "0.1.6",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cednore/boom-controller.git",
-                "reference": "0ee4847ce39f499fafe2d9f7fda126c182fc0e0c"
+                "reference": "4f8a9f18176e290f1e1ee259894998dc5e2f74bc"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -64,7 +64,7 @@
                 "php",
                 "socket.io"
             ],
-            "time": "2022-04-11T13:07:58+00:00"
+            "time": "2022-04-11T13:12:31+00:00"
         },
         {
             "name": "doctrine/inflector",
