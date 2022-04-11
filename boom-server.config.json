@@ -1,0 +1,48 @@
+{
+  "devmode": true,
+  "host": null,
+  "port": 9001,
+  "secure": false,
+  "ssl": {
+    "certPath": "",
+    "keyPath": "",
+    "certChainPath": "",
+    "passphrase": ""
+  },
+  "socketio": {
+    "namespaces": {
+      "/": {},
+      "/demo": {}
+    },
+    "options": {}
+  },
+  "api": {
+    "auth": {
+      "token": ""
+    },
+    "allowCors": false,
+    "allowOrigin": "",
+    "allowMethods": "",
+    "allowHeaders": ""
+  },
+  "app": {
+    "baseURL": "http://localhost:8000/boom",
+    "auth": {
+      "token": ""
+    }
+  },
+  "database": {
+    "driver": "mysql",
+    "tables": {
+      "sockets": "sockets"
+    },
+    "mysql": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "root",
+      "database": "boom-demo"
+    },
+    "memcached": {}
+  }
+}
